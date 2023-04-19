@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="472d3354f617474eb353aaf45bbf5011" Name="Diagram1">
+        <EntityTypeShape EntityType="foodModel.customer" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="foodModel.fooditem" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="foodModel.restaurant" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="foodModel.userpassword" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="foodModel.order_food" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="foodModel.FK__order_foo__custo__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="foodModel.FK__order_foo__food___3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="foodModel.FK__order_foo__resta__3C69FB99" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="foodModel.order_status" Width="1.5" PointX="3" PointY="7.625" />
+        <AssociationConnector Association="foodModel.FK__order_sta__custo__3F466844" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
